@@ -45,8 +45,8 @@ const controllerByMethod = {
       sendGridMail.setApiKey(process.env.SENDGRID_KEY);
       
       await sendGridMail.send({
-        to: "contato@mariosouto.com", // email
-        from: "devsoutinho@mariosouto.com",
+        to: "vyoda4604@gmail.com", // email
+        from: "vyoda4604@gmail.com",
         subject: "Titulo do Email!",
         html: "Aqui vai o <strong>Conteúdo!!!</strong>"
       });

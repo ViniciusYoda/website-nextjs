@@ -70,16 +70,16 @@ export default function NewsletterScreen() {
           }}
         >
           <Image
-            src="https://github.com/omariosouto.png"
-            alt="Foto do DevSoutinho"
+            src="https://github.com/ViniciusYoda.png"
+            alt="Foto do Vinícius Yoda"
             styleSheet={{
               borderRadius: "100%",
               width: "100px",
               marginBottom: "16px"
             }}
           />
-          <Text variant="heading2">
-            Newsletter do DevSoutinho
+          <Text variant="heading2" styleSheet={{ textAlign: "center" }}>
+            Newsletter do Vinícius Yoda
           </Text>
           <NewsletterTextField
             placeholder="Informe seu email"
@@ -92,7 +92,7 @@ export default function NewsletterScreen() {
               Seu email é: {form.values.emailNewsletter}
             </Text>
           </Box>
-          <Button fullWidth styleSheet={{ marginTop: "16px" }}>
+          <Button fullWidth styleSheet={{ marginTop: "16px", backgroundColor: "lightblue" }}>
             Cadastrar
           </Button>
         </Box>

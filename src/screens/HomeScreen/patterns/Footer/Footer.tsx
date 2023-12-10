@@ -19,7 +19,7 @@ export default function Footer() {
       }}
     >
       <Text variant="body2">
-        Feito com ❤️ por Mario Souto (DevSoutinho)
+        Feito com ❤️ por Vinícius Yoda
       </Text>
     </Box>
   )

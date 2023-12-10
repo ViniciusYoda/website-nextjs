@@ -18,7 +18,7 @@ export default function Feed({ children }) {
   return (
     <Box
       styleSheet={{
-        backgroundColor: theme.colors.neutral.x000,
+        backgroundColor: theme.colors.neutral.x050,
         marginTop: '-228px',
         width: '100%',
         maxWidth: '683px',
@@ -60,7 +60,7 @@ Feed.Header = () => {
             borderRadius: '100%',
           }}
           src={templateConfig?.personal?.avatar}
-          alt="Imagem de perfil do Mario Souto"
+          alt="Imagem de perfil do Vinícius Yoda"
         />
 
         <Box
